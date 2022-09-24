@@ -69,3 +69,12 @@
 
 **git log --pretty=oneline --all**
 
+## Создание тегов версий
+
+**git tag <tag name>** - создать тег
+
+**git tag** - увидеть, какие теги доступны
+
+**git checkout "tag name"** - переключаться между отмеченными версиями
+
+**git hist master --all** - посмотреть теги в логе
