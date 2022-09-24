@@ -57,5 +57,15 @@
 
 **$ git pull** - загружает историю из удалённого репозитория и объединяет её с локальной. pull = fetch + merge
 
+## Контроль отображения записей
 
+**git log --pretty=oneline --max-count=2**
+
+**git log --pretty=oneline --since='5 minutes ago'**
+
+**git log --pretty=oneline --until='5 minutes ago'**
+
+**git log --pretty=oneline --author=<your name>**
+
+**git log --pretty=oneline --all**
 
